@@ -9,7 +9,7 @@ async function connect() {
 }
 
 function getDb() {
-    if (!databse) {
+    if (!database) {
         throw { message: 'Database connection not establised!'};
     }
     return database;
