@@ -15,3 +15,4 @@ router.get('/new-post', async function(req, res) {
 });
 
 module.exports = router;
+
